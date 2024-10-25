@@ -9,7 +9,7 @@
   "scripts": {
     "test": "pnpm ts-mocha -p ./tests/tsconfig.test.json -t 1000000 ./tests/counter.test.ts",
     "build-and-test": "cargo build-sbf --manifest-path=./program/Cargo.toml --sbf-out-dir=./tests/fixtures && pnpm test",
-    "build": "cargo build-sbf --manifest-path=./program/Cargo.toml --sbf-out-dir=./program/target/so",
+    "build": "cargo build-sbf --manifest-path=./program/Cargo.toml",
     "deploy": "solana program deploy ./program/target/so/program.so"
   },
   "devDependencies": {
