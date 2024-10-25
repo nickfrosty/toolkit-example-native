@@ -13,6 +13,9 @@ accountDir = "fixtures"
 # defien the directory to store all the accounts/programs you want to clone
 # accountDir = ".cache/accounts" #default: accounts
 
+[programs.localnet]
+counter_solana_native = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+
 [clone.account.wallet]
 # this is a random wallet account, owned by system program
 address = "GQuioVe2yA6KZfstgmirAvugfUZBcdxSi7sHK7JGk3gk"
