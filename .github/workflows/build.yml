@@ -14,7 +14,7 @@ jobs:
     steps:
       # - uses: actions/checkout@v4
       - name: Install Solana CLI
-        uses: nickfrosty/github-actions/install-solana@v1.1.6
+        uses: nickfrosty/github-actions/install-solana@v1.1.7
         with:
           # version: ${{ matrix.version }}
           version: 2.0.0
