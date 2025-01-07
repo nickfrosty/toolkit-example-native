@@ -13,7 +13,7 @@ jobs:
     steps:
       # - uses: actions/checkout@v4
       - name: Install Solana CLI
-        uses: nickfrosty/github-actions/install-solana@v1.1.2
+        uses: nickfrosty/github-actions/install-solana@v1.1.3
         with:
           version: ${{ matrix.version }}
       - name: Build Program
